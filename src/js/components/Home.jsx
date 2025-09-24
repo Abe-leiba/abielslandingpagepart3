@@ -6,6 +6,7 @@ import Cardrow from "./Cardrow";
 const Home = () => {
 	return (
 		<>
+		
 		<Navbar/>
 
 		<div className="row">
@@ -17,11 +18,11 @@ const Home = () => {
 		</div>
 
 		<div className="row">
-			<div classname="col-1"></div>
+			<div className="col-1"></div>
 			<div className="col-10">
 				<Cardrow/>
 			</div>
-			<div classname="col-1"></div>
+			<div className="col-1"></div>
 		</div>
 		
 		
