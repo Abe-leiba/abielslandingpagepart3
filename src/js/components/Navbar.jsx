@@ -1,18 +1,17 @@
 const Navbar = () => {
   return (
-    <>
+  
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="col-1 container-fluid">
+  <div class=" container-fluid">
     <a class="navbar-brand me-5" href="#">Navbar</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    {/* {/* <div class="collapse navbar-collapse" id="navbarSupportedContent"> */}
       <ul class="navbar-nav mb-2 mb-lg-0">
-        <li class="nav-item">
-
+         <li class="nav-item"> 
    
-          <a class="nav-link active me-5" aria-current="page" href="#">Home</a>
+         <a class=" nav-link active me-5" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item me-5">
           <a class="nav-link" href="#">About</a>
@@ -30,9 +29,9 @@ const Navbar = () => {
       </ul>
 
     </div>
-  </div>
+  
 </nav>
-    </>
+   
   );
 };
 
